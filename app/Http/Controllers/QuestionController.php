@@ -40,7 +40,7 @@ class QuestionController extends Controller
         $question = new Question();
         $question['title'] = '';
         $question['body'] = '';
-        return view('questions.create', compact('$question'));
+        return view('questions.create', compact('question'));
     }
 
     /**
